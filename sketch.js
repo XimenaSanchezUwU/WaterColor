@@ -18,7 +18,8 @@ function preload() {
 
 
 function setup() {
-  createCanvas(511,784);
+  var cnv = createCanvas(windowWidth, windowHeight);
+  cnv.style('display', 'block');
   textFont(myFont);
 }
 
