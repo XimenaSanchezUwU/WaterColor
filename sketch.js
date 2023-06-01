@@ -18,14 +18,13 @@ function preload() {
 
 
 function setup() {
-  var cnv = createCanvas(windowWidth, windowHeight);
-  cnv.style('display', 'block');
+  createCanvas(511,784);
   textFont(myFont);
 }
 
 function draw() {
   background(220);
-  image(img, 0, 0, windowWidth, windowHeight);
+  image(img, 0, 0, 1511, 1784);
   text('¿Hacia donde voy con todo esto?', 33, 411);
   //textFont('myFont');
   fill(random(122), 132, 123);
