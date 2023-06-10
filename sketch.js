@@ -2,7 +2,7 @@
 let img;
 let myFont;
 function preload() {
-  img = loadImage('assets/Modi.png');
+  img = loadImage('assets/Caminos.png');
   myFont = loadFont('assets/CherryHand-Regular.ttf');
 }
 
@@ -31,10 +31,11 @@ function draw() {
   fill(random(122), 132, 123);
   text('¿Hacia donde voy con todo esto?', random(100), 111);
   //textFont('myFont');
-  textSize(random(40));
+  textSize(random(100));
   fill(11, 32, 123);
+  frameRate(10);
   text('¿Hacia donde voy con todo esto?', 20, random(631));
   //textFont('myFont');
-  textSize(35);
+  textSize(65);
   fill(222,1,12);
 }
